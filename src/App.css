@@ -1,0 +1,18 @@
+.image-table {
+  width: 100%; /* O ajusta el ancho según tus necesidades */
+  border-collapse: collapse; /* Fusiona los bordes de las celdas */
+}
+
+/* Estilo para las celdas de la tabla */
+.image-table th,
+.image-table td {
+  border: 1px solid #ccc; /* Agrega bordes a las celdas */
+  padding: 8px; /* Añade espacio entre el contenido y los bordes de las celdas */
+  text-align: center; /* Alinea el contenido al centro de las celdas */
+}
+
+/* Estilo para las imágenes en las celdas */
+.image-table img {
+  max-width: 100px; /* Limita el tamaño máximo de las imágenes */
+  height: auto;
+}
